@@ -8,7 +8,6 @@ matplotlib
 emoji==1.2.0
 nltk
 wordcloud==1.8.1
-gensim
 pyLDAvis
 spacy==3.0.1
 seaborn==0.11.0
