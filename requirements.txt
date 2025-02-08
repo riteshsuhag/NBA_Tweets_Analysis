@@ -1,0 +1,14 @@
+pandas==1.1.3
+streamlit
+scikit-learn
+numpy
+joblib==0.17.0
+Pillow==8.0.1
+matplotlib
+emoji==1.2.0
+nltk
+wordcloud==1.8.1
+gensim==3.8.3
+pyLDAvis==3.2.0
+spacy==3.0.1
+seaborn==0.11.0
