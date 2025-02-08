@@ -80,7 +80,7 @@ def plot_sentiment_graph(team, col):
                ### Sentiment trend of the team - 
                """)
     
-    plt.plot(df_team['created'], df_team['sentiment_numeric'], color = 'navy')
+    plt.plot(df_team['created'].to_list(), df_team['sentiment_numeric'].to_list(), color = 'navy')
     plt.title('Daily Tweets Sentiment Score', fontsize = 22)
     plt.xlabel('Date', fontsize = 20)
     plt.ylabel('Sentiment Score', fontsize = 20)
