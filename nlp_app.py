@@ -15,6 +15,7 @@ import base64
 import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('wordnet')
 nltk.download('vader_lexicon')
 from nltk.corpus import stopwords
